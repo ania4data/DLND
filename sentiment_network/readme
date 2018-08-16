@@ -1,0 +1,6 @@
+sentiment lab file, IMDB review, palying with speed, frequency, cutoff the work, also added stop words. cosine similarity and 
+T-SNE added. speed by droppping the sparse part of vocabulary and using only indices of existing words improved over 10 time,
+Xivier initilization also improve the results. using polarity and min_count for removing repeated words that are not useful, low caount of words,
+and keeping most polar words with which are at polar oppsitive of positive/negative ratio did not significantly increased trainig over 84%
+(as well as removing stop words). If train the network at without re-initilization run again based on last exsiting weright accuracy of
+the training increase to ~93% by test set show high variance and accuracy drop.
